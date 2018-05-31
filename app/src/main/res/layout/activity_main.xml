@@ -41,7 +41,7 @@
 
     <EditText
         android:id="@+id/editText_name"
-        android:layout_width="wrap_content"
+        android:layout_width="178dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="56dp"
@@ -52,7 +52,7 @@
 
     <EditText
         android:id="@+id/editText_phone"
-        android:layout_width="wrap_content"
+        android:layout_width="182dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginTop="276dp"
@@ -63,7 +63,7 @@
 
     <EditText
         android:id="@+id/editText_address"
-        android:layout_width="wrap_content"
+        android:layout_width="179dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="164dp"
@@ -76,8 +76,8 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="84dp"
-        android:layout_marginStart="48dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginStart="52dp"
         android:onClick="addData"
         android:text="Add Contact"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -87,10 +87,21 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="84dp"
-        android:layout_marginStart="196dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginStart="176dp"
         android:onClick="viewData"
         android:text="View Contacts"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="420dp"
+        android:onClick="SearchRecord"
+        android:text="SEARCH"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
